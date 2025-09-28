@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic-HTML</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        h1 {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            animation: colorChange 2s infinite;
+            justify-items: center;
+            text-align: center;
+            font-size: 100px;
+        }
+        @keyframes colorChange {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: purple; }
+            100% { color: red; }
+        }
+        img {
+            display: left;
+            width: 25%;
+            height: auto;
+            margin-top: 100px;
+            margin-left: 1%;
+        }
+        video {
+            display: right;
+            width: 50%;
+            height: auto;
+            margin-left: 10%;
+            outline: 10px solid peru;
+        }
+        body {
+            display: block;
+            justify-content: center;
+            background-image: url('https://t3.ftcdn.net/jpg/01/97/99/64/360_F_197996406_VqWK9z1vPfcOGnDfEFBtOhL5q0Pr4MMP.jpg');
+            text-shadow: 2dvh 2dvh 2dvh peru;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic HTML</h1>
+    <div>
+        <img src="pic2.png" alt="Code Image">
+        <video src="example1.mp4"
+        controls
+        loop></video>
+    </div>
+</body>
+</html>
